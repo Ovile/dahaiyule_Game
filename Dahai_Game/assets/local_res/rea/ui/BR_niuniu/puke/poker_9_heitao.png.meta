@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "a1620e7e-1391-49bc-bd19-745c1cd04ff0",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "poker_9_heitao": {
+      "ver": "1.0.4",
+      "uuid": "b0078cba-73ce-481e-b0f0-dfa37aba9daf",
+      "rawTextureUuid": "a1620e7e-1391-49bc-bd19-745c1cd04ff0",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 250,
+      "height": 328,
+      "rawWidth": 250,
+      "rawHeight": 328,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

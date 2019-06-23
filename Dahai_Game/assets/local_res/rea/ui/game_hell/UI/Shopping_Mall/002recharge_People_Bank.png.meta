@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "974b0652-2188-42db-ad57-8a4fa987b259",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "002recharge_People_Bank": {
+      "ver": "1.0.4",
+      "uuid": "67f33132-79c4-4f7a-a42e-988d4dc99bc7",
+      "rawTextureUuid": "974b0652-2188-42db-ad57-8a4fa987b259",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -9.5,
+      "offsetY": -17.5,
+      "trimX": 0,
+      "trimY": 35,
+      "width": 296,
+      "height": 283,
+      "rawWidth": 315,
+      "rawHeight": 318,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

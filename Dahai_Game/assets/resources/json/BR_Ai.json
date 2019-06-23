@@ -1,0 +1,177 @@
+{
+    "game_Ai_a": {
+        "name": "亨利",
+        "capital": "7400",
+        "Head": "",
+        "Head_box": "",
+        "vip": 6
+    },
+    "game_Ai_b": {
+        "name": "齐达内",
+        "capital": "4000",
+        "Head": "",
+        "Head_box": "",
+        "vip": 5
+    },
+    "game_Ai_c": {
+        "name": "伊布拉希莫维奇",
+        "capital": "1400",
+        "Head": "",
+        "Head_box": "",
+        "vip": 7
+    },
+    "game_Ai_d": {
+        "name": "阿圭罗",
+        "capital": "6600",
+        "Head": "",
+        "Head_box": "",
+        "vip": 5
+    },
+    "game_Ai_e": {
+        "name": "梅西",
+        "capital": "11000",
+        "Head": "",
+        "Head_box": "",
+        "vip": 8
+    },
+    "game_Ai_f": {
+        "name": "伊瓜因",
+        "capital": "800",
+        "Head": "",
+        "Head_box": "",
+        "vip": 0
+    },
+    "game_Ai_g": {
+        "name": "c.罗纳尔多",
+        "capital": "1500",
+        "Head": "",
+        "Head_box": "",
+        "vip": 7
+    },
+    "game_Ai_h": {
+        "name": "奥多伊",
+        "capital": "1150",
+        "Head": "",
+        "Head_box": "",
+        "vip": 1
+    },
+    "game_Ai_i": {
+        "name": "拉莫斯",
+        "capital": "440",
+        "Head": "",
+        "Head_box": "",
+        "vip": 3
+    },
+    "game_Ai_j": {
+        "name": "阿森西奥",
+        "capital": "470",
+        "Head": "",
+        "Head_box": "",
+        "vip": 9
+    },
+    "game_Ai_k": {
+        "name": "迪纳塔莱",
+        "capital": "30",
+        "Head": "",
+        "Head_box": "",
+        "vip": 1
+    },
+    "game_Ai_l": {
+        "name": "阿内尔卡",
+        "capital": "70",
+        "Head": "",
+        "Head_box": "",
+        "vip": 6
+    },
+    "game_Ai_m": {
+        "name": "莫德里奇",
+        "capital": "400",
+        "Head": "",
+        "Head_box": "",
+        "vip": 8
+    },
+    "game_Ai_n": {
+        "name": "梅西",
+        "capital": "700",
+        "Head": "",
+        "Head_box": "",
+        "vip": 3
+    },
+    "game_Ai_o": {
+        "name": "哈维",
+        "capital": "100",
+        "Head": "",
+        "Head_box": "",
+        "vip": 1
+    },
+    "game_Ai_p": {
+        "name": "内马尔",
+        "capital": "11000",
+        "Head": "",
+        "Head_box": "",
+        "vip": 4
+    },
+    "game_Ai_q": {
+        "name": "贝尔",
+        "capital": "700",
+        "Head": "",
+        "Head_box": "",
+        "vip": 7
+    },
+    "game_Ai_r": {
+        "name": "姆巴姵",
+        "capital": "600",
+        "Head": "",
+        "Head_box": "",
+        "vip": 3
+    },
+    "game_Ai_s": {
+        "name": "卡纳瓦罗",
+        "capital": "7",
+        "Head": "",
+        "Head_box": "",
+        "vip": 9
+    },
+    "game_Ai_u": {
+        "name": "里瓦尔多",
+        "capital": "60",
+        "Head": "",
+        "Head_box": "",
+        "vip": 3
+    },
+    "game_Ai_v": {
+        "name": "罗马里奥",
+        "capital": "10",
+        "Head": "",
+        "Head_box": "",
+        "vip": 4
+    },
+    "game_Ai_w": {
+        "name": "卡卡",
+        "capital": "7800",
+        "Head": "",
+        "Head_box": "",
+        "vip": 1
+    },
+    "game_Ai_x": {
+        "name": "巴雷西",
+        "capital": "2000",
+        "Head": "",
+        "Head_box": "",
+        "vip": 6
+    },
+    "game_Ai_y": {
+        "name": "罗纳尔迪尼奥",
+        "capital": "70",
+        "Head": "",
+        "Head_box": "",
+        "vip": 2
+    },
+    "game_Ai_z": {
+        "name": "格里兹曼",
+        "capital": "1700",
+        "Head": "",
+        "Head_box": "",
+        "vip": 5
+    }
+}

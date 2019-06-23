@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "3da79df7-8267-4802-887c-df07fb2c9efe",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "poker_10_fangkuai": {
+      "ver": "1.0.4",
+      "uuid": "dfeec420-22bf-4b5d-9bcd-45f0552ff0e2",
+      "rawTextureUuid": "3da79df7-8267-4802-887c-df07fb2c9efe",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 250,
+      "height": 328,
+      "rawWidth": 250,
+      "rawHeight": 328,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

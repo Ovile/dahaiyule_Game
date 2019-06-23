@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "40ecd285-19a1-4148-a715-e62b2df1e364",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "002recharge_title_chongzhi": {
+      "ver": "1.0.4",
+      "uuid": "4a21d27b-7294-4f70-a02a-eba2b5fa5725",
+      "rawTextureUuid": "40ecd285-19a1-4148-a715-e62b2df1e364",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 161,
+      "height": 61,
+      "rawWidth": 161,
+      "rawHeight": 61,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

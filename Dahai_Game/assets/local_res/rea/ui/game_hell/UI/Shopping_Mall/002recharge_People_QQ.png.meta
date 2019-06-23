@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "3167bc8d-9b23-4917-a1b1-bdc2896b558a",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "002recharge_People_QQ": {
+      "ver": "1.0.4",
+      "uuid": "a235cdd6-fc34-4bb6-ac5f-95a628d82d4a",
+      "rawTextureUuid": "3167bc8d-9b23-4917-a1b1-bdc2896b558a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 2,
+      "offsetY": -17.5,
+      "trimX": 21,
+      "trimY": 35,
+      "width": 277,
+      "height": 283,
+      "rawWidth": 315,
+      "rawHeight": 318,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

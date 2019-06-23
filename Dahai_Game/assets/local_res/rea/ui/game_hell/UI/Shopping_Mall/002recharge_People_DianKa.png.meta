@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "786b0341-cc9b-4138-9730-bb6414f011f3",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "002recharge_People_DianKa": {
+      "ver": "1.0.4",
+      "uuid": "a9ed7302-c917-4655-a4dc-a893f17dacad",
+      "rawTextureUuid": "786b0341-cc9b-4138-9730-bb6414f011f3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 27,
+      "offsetY": -24.5,
+      "trimX": 59,
+      "trimY": 49,
+      "width": 251,
+      "height": 269,
+      "rawWidth": 315,
+      "rawHeight": 318,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
