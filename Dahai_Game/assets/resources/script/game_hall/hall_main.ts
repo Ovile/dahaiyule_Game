@@ -46,7 +46,10 @@ export default class NewClass extends cc.Component {
 
         cc.director.preloadScene("BR_niuniu",function(){
             cc.log("百人牛牛-预加载成功");
-        },)
+        },);
+        cc.director.preloadScene("ER_majiang",function(){
+            cc.log("二人麻将-预加载成功");
+        },);
     }
 
     start() {
@@ -63,30 +66,30 @@ export default class NewClass extends cc.Component {
         let Personal_information = this.node.getChildByName("main_header").getChildByName("Game_player");
         const Personal_informations = this.node.getChildByName("Page").getChildByName("Personal_information");
         Personal_informations.addComponent("Personal_information");
-        Personal_information.on(cc.Node.EventType.TOUCH_START, function () {
+        Personal_information.on(cc.Node.EventType.TOUCH_END, function () {
             Personal_informations.active = true;
         }, true);
         let vip = this.node.getChildByName("main_header").getChildByName("OtherFunctions").getChildByName("vip");
         const vips = this.node.getChildByName("Page").getChildByName("VIP");
         vips.addComponent("vip");
-        vip.on(cc.Node.EventType.TOUCH_START, function () {
+        vip.on(cc.Node.EventType.TOUCH_END, function () {
             vips.active = true;
         }, true);
         let Binding_Phone = this.node.getChildByName("main_header").getChildByName("OtherFunctions").getChildByName("BindCellPhone");
         const kaihu_pop_up = this.node.getChildByName("kaihu_pop-up");
-        Binding_Phone.on(cc.Node.EventType.TOUCH_START, function () {
+        Binding_Phone.on(cc.Node.EventType.TOUCH_END, function () {
             kaihu_pop_up.active = true;
         }, true);
         let CustomerService = this.node.getChildByName("main_header").getChildByName("OtherFunctions").getChildByName("CustomerService");
         const CustomerServices = this.node.getChildByName("Page").getChildByName("services");
         CustomerServices.addComponent("CustomerService");
-        CustomerService.on(cc.Node.EventType.TOUCH_START, function () {
+        CustomerService.on(cc.Node.EventType.TOUCH_END, function () {
             CustomerServices.active = true;
         }, true);
         let agent = this.node.getChildByName("main_header").getChildByName("OtherFunctions").getChildByName("agent");
         const agents = this.node.getChildByName("Page").getChildByName("Extension");
         agents.addComponent("agent");
-        agent.on(cc.Node.EventType.TOUCH_START, function () {
+        agent.on(cc.Node.EventType.TOUCH_END, function () {
             agents.active = true;
         }, true);
 
@@ -94,25 +97,25 @@ export default class NewClass extends cc.Component {
         let Safe_Deposit_Box = this.node.getChildByName('main_footer').getChildByName("SafeDepositBox");
         const Safe_Deposit_Boxs = this.node.getChildByName("Popup").getChildByName("Tips_pop-up");
             Safe_Deposit_Boxs.addComponent("Safe_Deposit_Box");
-        Safe_Deposit_Box.on(cc.Node.EventType.TOUCH_START, function () {
+        Safe_Deposit_Box.on(cc.Node.EventType.TOUCH_END, function () {
             Safe_Deposit_Boxs.active = true;
         }, true);
         let Cashwithdrawal = this.node.getChildByName('main_footer').getChildByName("Cashwithdrawal");
         const Cashwithdrawals = this.node.getChildByName("Popup").getChildByName("Tips_pop-up");
         Cashwithdrawals.addComponent("Safe_Deposit_Box")
-        Cashwithdrawal.on(cc.Node.EventType.TOUCH_START, function () {
+        Cashwithdrawal.on(cc.Node.EventType.TOUCH_END, function () {
             Cashwithdrawals.active = true;
         }, true);  
         let mail = this.node.getChildByName('main_footer').getChildByName("mail");
         const mails = this.node.getChildByName("Page").getChildByName("mail");
         mails.addComponent("mail")
-        mail.on(cc.Node.EventType.TOUCH_START, function () {
+        mail.on(cc.Node.EventType.TOUCH_END, function () {
             mails.active = true;
         }, true);
         let Recharge = this.node.getChildByName('main_footer').getChildByName("ShoppingMall");
         const Recharges = this.node.getChildByName("Page").getChildByName("Recharge");
         // Recharges.addComponent("Shoppin_Mall");//商城先不做
-        Recharge.on(cc.Node.EventType.TOUCH_START, function () {
+        Recharge.on(cc.Node.EventType.TOUCH_END, function () {
             if (!Recharges.active == true) {
                 Recharges.active = true;
             } else {
@@ -122,9 +125,14 @@ export default class NewClass extends cc.Component {
 
         // 子游戏场景跳转
         const BR_niuniu = this.node.getChildByName("Advertising_ScrollView").getChildByName("view").getChildByName("content").getChildByName("child_game").getChildByName("game_06_brnn");
-        BR_niuniu.on(cc.Node.EventType.TOUCH_START,function(){
+        BR_niuniu.on(cc.Node.EventType.TOUCH_END,function(){
             cc.director.loadScene("BR_niuniu");
             cc.log("进入百人牛牛游戏");
+        },this);
+        const ER_majiang = this.node.getChildByName("Advertising_ScrollView").getChildByName("view").getChildByName("content").getChildByName("child_game").getChildByName("game_22_ermj");
+        ER_majiang.on(cc.Node.EventType.TOUCH_END,function(){
+            cc.director.loadScene("ER_majiang");
+            cc.log("进入二人麻将游戏");
         },this);
     }
 
